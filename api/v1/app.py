@@ -13,7 +13,6 @@ Example:
       HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db HBNB_API_HOST=0.0.0.0 \
       HBNB_API_PORT=5000 python3 -m api.v1.app
 """
-
 from flask import Flask, jsonify
 from flask_cors import CORS
 from os import getenv
